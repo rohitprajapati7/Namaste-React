@@ -1,0 +1,25 @@
+what is Emmet?
+# Emmet uses syntax similar to CSS selectors for describing elements’ positions inside generated tree and elements’ attributes.
+Nesting operators: Child: >, Sibling: +, Climb-up: ^,  Multiplication: *
+Child: >  => div>ul>li 
+output : 
+<div>
+    <ul>
+        <li></li>
+    </ul>
+</div>
+
+
+
+what is CDN and why do we use it?
+A CDN is a network of servers that distributes content from an “origin” server throughout the
+world by caching content close to where each end user is accessing the internet via a web-enabled device.
+
+
+what is crossorigin in script tag?
+Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+CORS is used to manage cross-origin requests.
+
+What is difference between react.development.js and react.production.js files via CDN?
+the react development.js file size is large and the react.production.js file are the minified the file 
